@@ -289,9 +289,6 @@ function addImage() {
     } else {
       errorAdd.innerText = "Veuillez remplir tous les champs.";
       errorAdd.style.color = "red";
-      setTimeout(() => {
-        errorAdd.innerText = "";
-      });
       console.log("Tous les champs ne sont pas remplis !");
     }
   });
